@@ -1,6 +1,7 @@
 package adapter;
 
 // 계좌 정보 저장을 위한 코드
+// 내가 만든 코드(adaptee)
 public class Account {
 
     private String name;

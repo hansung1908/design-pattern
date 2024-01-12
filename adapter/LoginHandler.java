@@ -1,6 +1,7 @@
 package adapter;
 
 // 로그인 기능을 제공하는 서드파티 라이브러리
+// 기존에 서비스 되던 코드
 public class LoginHandler {
 
     UserDetailService userDetailService;
