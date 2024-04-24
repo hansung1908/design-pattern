@@ -36,7 +36,7 @@
   >- 기존의 코드는 변경하지 않으면서(closed) 기능을 추가할 수 있도록(open) 설계가 되어야 한다는 원칙
   >- 캡슐화를 통해 여러 객체에서 사용하는 기능을 인터페이스로 정의
   >- 컬렉션 코드도 하나의 예라고 할 수 있음
-  >- ```shell 
+  >  ```shell 
   >  list<String> list = new Arraylist<>();
   >  ```
   
@@ -46,7 +46,7 @@
   >- 오버라이딩은 가급적 피할 것
   >- LinkedList로 타입 선언시 hashset으로 교체가 필요할 경우 ocp를 위반하게 됨
   >- 그래서 부모 타입으로 선언
-  >- ```shell 
+  >  ```shell 
   >  Collection list = new LinkedList<>();
   >  ```
   
